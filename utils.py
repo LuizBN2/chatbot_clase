@@ -14,7 +14,7 @@ from tensorflow.keras.layers import Dense
 from sklearn.preprocessing import LabelEncoder
 
 #Cargar los datos
-path = "/content/drive/MyDrive/GRUPO_166/CHATBOT/intents.json"
+path = "intents.json"
 with open(path, 'r', encoding='utf-8') as file:
     data = json.load(file)
 
